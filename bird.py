@@ -31,3 +31,8 @@ class Bird(Animal):
 
 bird  = Bird()
 bird.get_waga()
+
+
+#git diff przed git add  - sprawdzam roznice
+
+

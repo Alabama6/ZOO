@@ -32,11 +32,11 @@ class Animal(object):
         return self.wzrost
 
 
+if __name__=='__main__':
+    animal = Animal()
 
-animal = Animal()
+    animal.waga = 2
+    animal.set_waga(2)
 
-animal.waga = 2
-animal.set_waga(2)
-
-print animal.waga
-print animal.get_waga() #zabezpieczenie kodu
+    print animal.waga
+    print animal.get_waga() #zabezpieczenie kodu
